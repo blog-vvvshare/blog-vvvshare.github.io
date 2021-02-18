@@ -71,3 +71,9 @@
       rgba(109, 186, 130, 0.1) 100%
     );
   }
+
+  /* 友链悬浮效果美化 */
+  .flink-list-item{border: 1px solid grey;box-shadow: 10px 10px 5px #888888;}
+  .flink#article-container .flink-list > .flink-list-item:before{
+    transform: translateX(-100%);
+  }
